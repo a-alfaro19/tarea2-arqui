@@ -1,0 +1,25 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Cachés/artefactos comunes
+__pycache__/
+*.py[cod]
+*.egg-info/
+.build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Variables de entorno (si usas python-dotenv)
+.env
+.env.*
+
+.idea
+results/
